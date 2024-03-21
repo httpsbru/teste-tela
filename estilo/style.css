@@ -15,13 +15,16 @@ body{
     background-image: url(../imagem/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 60vw;
     height: 100vh;
     display: flex;
     align-items: center; /*aqui nao acontece nada*/
     justify-content: center; /*aqui ele ja vai para o meio*/
     margin: auto;
-    width: 100vw;
-    height: 100vh;
+    
+    
+    
+    
     
 
 }
@@ -29,12 +32,11 @@ body{
 .formulario{
     background-color: transparent;
     backdrop-filter: blur(20px); /*EFEITO ESPELHO BLUR*/
-    width: 400px;
-    
-    padding: 30px 40px;
+    width: 50%;    
+    padding: 25px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.288);
-    margin: auto;
+    
   
     
     
@@ -48,9 +50,11 @@ h1{
 }
 
 .formulario .input-box{
-    width: 300px;
+    
     height: 40px;
     padding: 10px 50px;
+   
+    
     
 
 }
@@ -64,6 +68,10 @@ h1{
     outline: none;
     border: 1px solid white;
     padding: 0 0 0 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 input::placeholder{
@@ -76,5 +84,5 @@ input::placeholder{
 }
 
 button{
-    width: 100px;
+    width: 20%;
 }
