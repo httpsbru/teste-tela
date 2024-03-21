@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fontes/Poppins-Regular.ttf) format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(../imagem/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center; /*aqui nao acontece nada*/
+    justify-content: center; /*aqui ele ja vai para o meio*/
+    margin: auto;
+    
+
+}
+
+.formulario{
+    background-color: transparent;
+    backdrop-filter: blur(20px); /*EFEITO ESPELHO BLUR*/
+    width: 400px;
+    padding: 30px 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    margin: auto;
+  
+    
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    
+}
+
+.formulario .input-box{
+    width: 300px;
+    height: 40px;
+    padding: 10px 50px;
+    
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 0 0 0 10px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.btn{
+    text-align: center;   
+
+}
+
+button{
+    width: 100px;
+}
