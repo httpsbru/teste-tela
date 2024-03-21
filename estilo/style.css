@@ -20,6 +20,8 @@ body{
     align-items: center; /*aqui nao acontece nada*/
     justify-content: center; /*aqui ele ja vai para o meio*/
     margin: auto;
+    width: 100vw;
+    height: 100vh;
     
 
 }
@@ -28,6 +30,7 @@ body{
     background-color: transparent;
     backdrop-filter: blur(20px); /*EFEITO ESPELHO BLUR*/
     width: 400px;
+    
     padding: 30px 40px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.288);
