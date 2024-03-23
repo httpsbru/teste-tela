@@ -11,34 +11,31 @@
     font-family: 'Poppins', sans-serif;
 }
 
+main{
+    width: 768px;
+}
+
 body{
     background-image: url(../imagem/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 60vw;
     height: 100vh;
+    
     display: flex;
     align-items: center; /*aqui nao acontece nada*/
     justify-content: center; /*aqui ele ja vai para o meio*/
-    margin: auto;
-    
-    
-    
-    
-    
 
 }
 
 .formulario{
     background-color: transparent;
     backdrop-filter: blur(20px); /*EFEITO ESPELHO BLUR*/
-    width: 50%;    
+    margin: auto;
+    max-width: 50%;
+    min-width: 270px;
     padding: 25px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.288);
-    
-  
-    
     
 }
 
